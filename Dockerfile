@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     curl \ 
     xvfb \ 
+    lsof \
     glib-networking-common && \
     mkdir -p /igv && \
     cd /igv && \
